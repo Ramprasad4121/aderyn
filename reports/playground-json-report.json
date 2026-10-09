@@ -1,7 +1,7 @@
 {
   "files_summary": {
-    "total_source_units": 126,
-    "total_sloc": 4727
+    "total_source_units": 128,
+    "total_sloc": 4864
   },
   "files_details": {
     "files_details": [
@@ -350,6 +350,14 @@
         "n_sloc": 6
       },
       {
+        "file_path": "src/UncheckedArithmetic.sol",
+        "n_sloc": 109
+      },
+      {
+        "file_path": "src/UncheckedArithmeticSafe.sol",
+        "n_sloc": 28
+      },
+      {
         "file_path": "src/UncheckedCalls.sol",
         "n_sloc": 24
       },
@@ -512,7 +520,7 @@
     ]
   },
   "issue_count": {
-    "high": 39,
+    "high": 40,
     "low": 48
   },
   "high_issues": {
@@ -1714,6 +1722,199 @@
             "line_no": 59,
             "src": "1610:68",
             "src_char": "1610:68"
+          }
+        ]
+      },
+      {
+        "title": "Unchecked Arithmetic in Solidity < 0.8.0",
+        "description": "The pragma allows a compiler version below 0.8.0, where arithmetic operations do not revert on overflow or underflow. Values silently wrap around instead. Use SafeMath (or an equivalent check) for these operations, or upgrade to Solidity 0.8.0 or above where arithmetic is checked by default.",
+        "detector_name": "unchecked-arithmetic",
+        "instances": [
+          {
+            "contract_path": "src/ConstFuncChangeState.sol",
+            "line_no": 9,
+            "src": "243:11",
+            "src_char": "243:11"
+          },
+          {
+            "contract_path": "src/ConstFuncChangeState.sol",
+            "line_no": 15,
+            "src": "405:11",
+            "src_char": "405:11"
+          },
+          {
+            "contract_path": "src/ConstFuncChangeState.sol",
+            "line_no": 21,
+            "src": "588:11",
+            "src_char": "588:11"
+          },
+          {
+            "contract_path": "src/DangerousUnaryOperator.sol",
+            "line_no": 18,
+            "src": "422:10",
+            "src_char": "422:10"
+          },
+          {
+            "contract_path": "src/DangerousUnaryOperator.sol",
+            "line_no": 19,
+            "src": "450:10",
+            "src_char": "450:10"
+          },
+          {
+            "contract_path": "src/DynamicArrayLengthAssignment.sol",
+            "line_no": 17,
+            "src": "439:21",
+            "src_char": "439:21"
+          },
+          {
+            "contract_path": "src/DynamicArrayLengthAssignment.sol",
+            "line_no": 20,
+            "src": "504:37",
+            "src_char": "504:37"
+          },
+          {
+            "contract_path": "src/DynamicArrayLengthAssignment.sol",
+            "line_no": 20,
+            "src": "513:26",
+            "src_char": "513:26"
+          },
+          {
+            "contract_path": "src/FunctionPointers.sol",
+            "line_no": 8,
+            "src": "197:5",
+            "src_char": "197:5"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 13,
+            "src": "299:9",
+            "src_char": "299:9"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 20,
+            "src": "462:9",
+            "src_char": "462:9"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 27,
+            "src": "625:9",
+            "src_char": "625:9"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 34,
+            "src": "787:9",
+            "src_char": "787:9"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 41,
+            "src": "939:9",
+            "src_char": "939:9"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 48,
+            "src": "1092:9",
+            "src_char": "1092:9"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 55,
+            "src": "1246:9",
+            "src_char": "1246:9"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 62,
+            "src": "1410:9",
+            "src_char": "1410:9"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 69,
+            "src": "1570:9",
+            "src_char": "1570:9"
+          },
+          {
+            "contract_path": "src/MisusedBoolean.sol",
+            "line_no": 76,
+            "src": "1732:9",
+            "src_char": "1732:9"
+          },
+          {
+            "contract_path": "src/PreDeclaredVarUsage.sol",
+            "line_no": 14,
+            "src": "299:5",
+            "src_char": "299:5"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 38,
+            "src": "1068:5",
+            "src_char": "1068:5"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 42,
+            "src": "1180:5",
+            "src_char": "1180:5"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 46,
+            "src": "1292:5",
+            "src_char": "1292:5"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 50,
+            "src": "1404:6",
+            "src_char": "1404:6"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 54,
+            "src": "1520:5",
+            "src_char": "1520:5"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 58,
+            "src": "1597:30",
+            "src_char": "1597:30"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 62,
+            "src": "1699:21",
+            "src_char": "1699:21"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 66,
+            "src": "1793:21",
+            "src_char": "1793:21"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 70,
+            "src": "1882:14",
+            "src_char": "1882:14"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 74,
+            "src": "1959:9",
+            "src_char": "1959:9"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 78,
+            "src": "2094:5",
+            "src_char": "2094:5"
           }
         ]
       },
@@ -4615,6 +4816,18 @@
             "src_char": "10498:3"
           },
           {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 131,
+            "src": "3719:1",
+            "src_char": "3719:1"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 135,
+            "src": "3852:6",
+            "src_char": "3852:6"
+          },
+          {
             "contract_path": "src/UncheckedReturn.sol",
             "line_no": 27,
             "src": "607:7",
@@ -5122,6 +5335,12 @@
             "src_char": "32:24"
           },
           {
+            "contract_path": "src/UncheckedArithmeticSafe.sol",
+            "line_no": 2,
+            "src": "32:23",
+            "src_char": "32:23"
+          },
+          {
             "contract_path": "src/UnsafeERC721Mint.sol",
             "line_no": 2,
             "src": "32:23",
@@ -5278,6 +5497,18 @@
             "line_no": 17,
             "src": "452:114",
             "src_char": "452:114"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 118,
+            "src": "3393:53",
+            "src_char": "3393:53"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 121,
+            "src": "3489:45",
+            "src_char": "3489:45"
           }
         ]
       },
@@ -5875,6 +6106,72 @@
             "line_no": 22,
             "src": "531:10",
             "src_char": "531:10"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 57,
+            "src": "1545:96",
+            "src_char": "1545:96"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 61,
+            "src": "1647:87",
+            "src_char": "1647:87"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 65,
+            "src": "1740:88",
+            "src_char": "1740:88"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 69,
+            "src": "1834:76",
+            "src_char": "1834:76"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 73,
+            "src": "1916:66",
+            "src_char": "1916:66"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 107,
+            "src": "2949:174",
+            "src_char": "2949:174"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 112,
+            "src": "3129:121",
+            "src_char": "3129:121"
+          },
+          {
+            "contract_path": "src/UncheckedArithmetic.sol",
+            "line_no": 126,
+            "src": "3546:64",
+            "src_char": "3546:64"
+          },
+          {
+            "contract_path": "src/UncheckedArithmeticSafe.sol",
+            "line_no": 23,
+            "src": "641:4",
+            "src_char": "641:4"
+          },
+          {
+            "contract_path": "src/UncheckedArithmeticSafe.sol",
+            "line_no": 28,
+            "src": "764:4",
+            "src_char": "764:4"
+          },
+          {
+            "contract_path": "src/UncheckedArithmeticSafe.sol",
+            "line_no": 33,
+            "src": "887:9",
+            "src_char": "887:9"
           },
           {
             "contract_path": "src/UnprotectedInitialize.sol",
@@ -7274,6 +7571,12 @@
             "src_char": "32:24"
           },
           {
+            "contract_path": "src/UncheckedArithmeticSafe.sol",
+            "line_no": 2,
+            "src": "32:23",
+            "src_char": "32:23"
+          },
+          {
             "contract_path": "src/UncheckedCalls.sol",
             "line_no": 2,
             "src": "32:23",
@@ -8087,6 +8390,7 @@
     "tautology-or-contradiction",
     "todo",
     "tx-origin-used-for-auth",
+    "unchecked-arithmetic",
     "unchecked-low-level-call",
     "unchecked-return",
     "unchecked-send",

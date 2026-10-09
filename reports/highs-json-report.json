@@ -158,6 +158,7 @@
     "tautological-compare",
     "tautology-or-contradiction",
     "tx-origin-used-for-auth",
+    "unchecked-arithmetic",
     "unchecked-low-level-call",
     "unchecked-send",
     "unprotected-initializer",

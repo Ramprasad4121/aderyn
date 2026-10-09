@@ -2094,6 +2094,356 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
+                  "uri": "src/ConstFuncChangeState.sol"
+                },
+                "region": {
+                  "byteLength": 11,
+                  "byteOffset": 243
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/ConstFuncChangeState.sol"
+                },
+                "region": {
+                  "byteLength": 11,
+                  "byteOffset": 405
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/ConstFuncChangeState.sol"
+                },
+                "region": {
+                  "byteLength": 11,
+                  "byteOffset": 588
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/DangerousUnaryOperator.sol"
+                },
+                "region": {
+                  "byteLength": 10,
+                  "byteOffset": 422
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/DangerousUnaryOperator.sol"
+                },
+                "region": {
+                  "byteLength": 10,
+                  "byteOffset": 450
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/DynamicArrayLengthAssignment.sol"
+                },
+                "region": {
+                  "byteLength": 21,
+                  "byteOffset": 439
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/DynamicArrayLengthAssignment.sol"
+                },
+                "region": {
+                  "byteLength": 37,
+                  "byteOffset": 504
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/DynamicArrayLengthAssignment.sol"
+                },
+                "region": {
+                  "byteLength": 26,
+                  "byteOffset": 513
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/FunctionPointers.sol"
+                },
+                "region": {
+                  "byteLength": 5,
+                  "byteOffset": 197
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 299
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 462
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 625
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 787
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 939
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 1092
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 1246
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 1410
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 1570
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/MisusedBoolean.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 1732
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/PreDeclaredVarUsage.sol"
+                },
+                "region": {
+                  "byteLength": 5,
+                  "byteOffset": 299
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 5,
+                  "byteOffset": 1068
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 5,
+                  "byteOffset": 1180
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 5,
+                  "byteOffset": 1292
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 6,
+                  "byteOffset": 1404
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 5,
+                  "byteOffset": 1520
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 30,
+                  "byteOffset": 1597
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 21,
+                  "byteOffset": 1699
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 21,
+                  "byteOffset": 1793
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 14,
+                  "byteOffset": 1882
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 1959
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 5,
+                  "byteOffset": 2094
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "The pragma allows a compiler version below 0.8.0, where arithmetic operations do not revert on overflow or underflow. Values silently wrap around instead. Use SafeMath (or an equivalent check) for these operations, or upgrade to Solidity 0.8.0 or above where arithmetic is checked by default."
+          },
+          "ruleId": "unchecked-arithmetic"
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
                   "uri": "src/DelegateCallWithoutAddressCheck.sol"
                 },
                 "region": {
@@ -7289,6 +7639,28 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 1,
+                  "byteOffset": 3719
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 6,
+                  "byteOffset": 3852
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
                   "uri": "src/UncheckedReturn.sol"
                 },
                 "region": {
@@ -8199,6 +8571,17 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
+                  "uri": "src/UncheckedArithmeticSafe.sol"
+                },
+                "region": {
+                  "byteLength": 23,
+                  "byteOffset": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
                   "uri": "src/UnsafeERC721Mint.sol"
                 },
                 "region": {
@@ -8475,6 +8858,28 @@
                 "region": {
                   "byteLength": 114,
                   "byteOffset": 452
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 53,
+                  "byteOffset": 3393
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 45,
+                  "byteOffset": 3489
                 }
               }
             }
@@ -9558,6 +9963,127 @@
                 "region": {
                   "byteLength": 10,
                   "byteOffset": 531
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 96,
+                  "byteOffset": 1545
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 87,
+                  "byteOffset": 1647
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 88,
+                  "byteOffset": 1740
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 76,
+                  "byteOffset": 1834
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 66,
+                  "byteOffset": 1916
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 174,
+                  "byteOffset": 2949
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 121,
+                  "byteOffset": 3129
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmetic.sol"
+                },
+                "region": {
+                  "byteLength": 64,
+                  "byteOffset": 3546
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmeticSafe.sol"
+                },
+                "region": {
+                  "byteLength": 4,
+                  "byteOffset": 641
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmeticSafe.sol"
+                },
+                "region": {
+                  "byteLength": 4,
+                  "byteOffset": 764
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmeticSafe.sol"
+                },
+                "region": {
+                  "byteLength": 9,
+                  "byteOffset": 887
                 }
               }
             },
@@ -12076,6 +12602,17 @@
                 },
                 "region": {
                   "byteLength": 24,
+                  "byteOffset": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UncheckedArithmeticSafe.sol"
+                },
+                "region": {
+                  "byteLength": 23,
                   "byteOffset": 32
                 }
               }

@@ -170,6 +170,7 @@ define_detectors! {
     TautologyOrContradiction,
     Todo,
     TxOriginUsedForAuth,
+    UncheckedArithmetic,
     UncheckedLowLevelCall,
     UncheckedReturn,
     UncheckedSend,
