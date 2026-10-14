@@ -1,7 +1,7 @@
 {
   "files_summary": {
-    "total_source_units": 126,
-    "total_sloc": 4727
+    "total_source_units": 127,
+    "total_sloc": 4773
   },
   "files_details": {
     "files_details": [
@@ -372,6 +372,10 @@
       {
         "file_path": "src/UnprotectedInitialize.sol",
         "n_sloc": 44
+      },
+      {
+        "file_path": "src/UnsafeERC20Selector.sol",
+        "n_sloc": 46
       },
       {
         "file_path": "src/UnsafeERC721Mint.sol",
@@ -3612,6 +3616,24 @@
             "src_char": "8065:7"
           },
           {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 46,
+            "src": "1860:7",
+            "src_char": "1860:7"
+          },
+          {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 52,
+            "src": "2114:7",
+            "src_char": "2114:7"
+          },
+          {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 58,
+            "src": "2379:7",
+            "src_char": "2379:7"
+          },
+          {
             "contract_path": "src/ZeroAddressCheck.sol",
             "line_no": 13,
             "src": "329:6",
@@ -5122,6 +5144,12 @@
             "src_char": "32:24"
           },
           {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 2,
+            "src": "32:23",
+            "src_char": "32:23"
+          },
+          {
             "contract_path": "src/UnsafeERC721Mint.sol",
             "line_no": 2,
             "src": "32:23",
@@ -5291,6 +5319,12 @@
             "line_no": 22,
             "src": "591:115",
             "src_char": "591:115"
+          },
+          {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 15,
+            "src": "510:38",
+            "src_char": "510:38"
           }
         ]
       },
@@ -6808,6 +6842,12 @@
             "src_char": "575:47"
           },
           {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 63,
+            "src": "2516:26",
+            "src_char": "2516:26"
+          },
+          {
             "contract_path": "src/router/ExternalCalls.sol",
             "line_no": 27,
             "src": "594:7",
@@ -7102,6 +7142,30 @@
             "line_no": 18,
             "src": "599:29",
             "src_char": "599:29"
+          },
+          {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 45,
+            "src": "1808:19",
+            "src_char": "1808:19"
+          },
+          {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 51,
+            "src": "2065:18",
+            "src_char": "2065:18"
+          },
+          {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 57,
+            "src": "2327:19",
+            "src_char": "2327:19"
+          },
+          {
+            "contract_path": "src/UnsafeERC20Selector.sol",
+            "line_no": 63,
+            "src": "2516:14",
+            "src_char": "2516:14"
           }
         ]
       },

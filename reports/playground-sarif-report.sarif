@@ -5477,6 +5477,39 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 7,
+                  "byteOffset": 1860
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 7,
+                  "byteOffset": 2114
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 7,
+                  "byteOffset": 2379
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
                   "uri": "src/ZeroAddressCheck.sol"
                 },
                 "region": {
@@ -8199,6 +8232,17 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 23,
+                  "byteOffset": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
                   "uri": "src/UnsafeERC721Mint.sol"
                 },
                 "region": {
@@ -8495,6 +8539,17 @@
                 "region": {
                   "byteLength": 115,
                   "byteOffset": 591
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 38,
+                  "byteOffset": 510
                 }
               }
             }
@@ -11244,6 +11299,17 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 26,
+                  "byteOffset": 2516
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
                   "uri": "src/router/ExternalCalls.sol"
                 },
                 "region": {
@@ -11773,6 +11839,50 @@
                 "region": {
                   "byteLength": 29,
                   "byteOffset": 599
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 1808
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 18,
+                  "byteOffset": 2065
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 19,
+                  "byteOffset": 2327
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/UnsafeERC20Selector.sol"
+                },
+                "region": {
+                  "byteLength": 14,
+                  "byteOffset": 2516
                 }
               }
             }
